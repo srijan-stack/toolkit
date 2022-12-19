@@ -5,18 +5,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='toolbox',
+    name='toolkit',
     version='0.0.3',
-    author='Mike Huls',
-    author_email='mike_huls@hotmail.com',
+    author='srijan',
+    author_email='adhyayansrijan1998@gmail.com',
     description='Testing installation of Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/mike-huls/toolbox',
+    url='https://github.com/srijan-stack/toolkit.git',
     project_urls = {
-        "Bug Tracker": "https://github.com/mike-huls/toolbox/issues"
+        ""
     },
     license='MIT',
-    packages=['toolbox'],
+    packages=['toolkit'],
     install_requires=['requests'],
 )
